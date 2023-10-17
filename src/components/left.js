@@ -53,7 +53,7 @@ const LeftHeader = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="sm:hidden absolute py-20 w-screen bg-[#f9f9f9] flex flex-col items-center justify-center z-50 ">
+          <div className="sm:hidden absolute pt-14 pb-20 w-screen bg-[#f2f2f2] flex flex-col items-center justify-center z-50 ">
             <ul
               className={`flex flex-col sm:hidden list-none gap-7 text-xl text-center`}
             >
@@ -82,7 +82,7 @@ const LeftHeader = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud.
           </p>
-          <div className="rounded-2xl bg-white flex flex-col sm:flex-row p-4 sm:px-2 sm:py-4 md:p-5 sm:gap-1 md:gap-3">
+          <div className="rounded-2xl bg-white flex flex-col sm:flex-row p-4 sm:px-2 py-7 sm:py-4 md:p-5 gap-1 md:gap-3">
             <div className="flex-1 relative bg-[#f9f9f9] rounded-lg">
               <div className="flex items-center">
                 <FiSearch className="w-6 h-6 ml-3" />
