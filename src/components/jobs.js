@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./swiper";
+import JobSlider from "./job-slider";
 
 const Jobs = () => {
   return (
@@ -13,7 +13,7 @@ const Jobs = () => {
         veniam, quis nostrud ad minim veniam labore et dolore.
       </p>
       <div>
-        <Slider />
+        <JobSlider />
       </div>
       <button className="mx-auto text-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mt-5">
         View More
