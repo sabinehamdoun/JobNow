@@ -38,56 +38,56 @@ const Slider = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
-            <BiBrain className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+          <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <BiBrain className="text-5xl text-[#00cc99] group-hover:text-[#fff]" />
             <h3 className="text-xl font-semibold my-3 pr-32 sm:pr-0">
               Design and Development
             </h3>
-            <p className="text-xs mt-auto">
+            <p className="text-xs mt-auto group-hover:text-[#fff]">
               350 Job Vacancy
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
-            <BiLineChartDown className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+          <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <BiLineChartDown className="text-5xl text-[#00cc99] group-hover:text-[#fff]" />
             <h3 className="text-xl font-semibold my-3 pr-32 sm:pr-0">
               Accounting and Finance
             </h3>
-            <p className="text-xs mt-auto">
+            <p className="text-xs font-semibold text-gray-500 mt-auto group-hover:text-[#fff]">
               350 Job Vacancy
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
-            <AiOutlineBank className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+          <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <AiOutlineBank className="text-5xl text-[#00cc99] group-hover:text-[#fff]" />
             <h3 className="text-xl font-semibold my-3 pr-52 sm:pr-20">
               Bank Institution
             </h3>
-            <p className="text-xs mt-auto">
+            <p className="text-xs font-semibold text-gray-500 mt-auto group-hover:text-[#fff]">
               350 Job Vacancy
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
-            <MdManageHistory className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+          <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <MdManageHistory className="text-5xl text-[#00cc99] group-hover:text-[#fff]" />
             <h3 className="text-xl font-semibold my-3 pr-44 sm:pr-20">
               Product Management
             </h3>
-            <p className="text-xs mt-auto">
+            <p className="text-xs font-semibold text-gray-500 mt-auto group-hover:text-[#fff]">
               350 Job Vacancy
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
-            <RiCustomerServiceLine className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+          <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <RiCustomerServiceLine className="text-5xl text-[#00cc99] group-hover:text-[#fff]" />
             <h3 className="text-xl font-semibold my-3 pr-44 sm:pr-20">
               Customer Support
             </h3>
-            <p className="text-xs mt-auto">
+            <p className="text-xs font-semibold text-gray-500 mt-auto group-hover:text-[#fff]">
               350 Job Vacancy
             </p>
           </div>
