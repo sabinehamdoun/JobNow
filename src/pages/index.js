@@ -1,5 +1,6 @@
 import Categories from "@component/components/categories";
 import Header from "@component/components/header";
+import Jobs from "@component/components/jobs";
 import Work from "@component/components/work";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Work />
       <Categories />
+      {/* <Jobs /> */}
     </div>
   )
 }

@@ -31,58 +31,49 @@ const Slider = () => {
   }, []);
 
   return (
-    <Swiper
-      spaceBetween={35}
-      slidesPerView={slidesPerView}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>
-        {" "}
-        <div className="rounded-3xl bg-[#00cc99] px-5 py-7 text-[#fff]">
-          <BiBrain className="text-5xl" />
-          <h3 className="text-xl font-semibold my-3">Design and Development</h3>
-          <p className="text-xs font-light mt-8 ">350 Job Vacancy</p>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        {" "}
-        <Card>
-          <BiLineChartDown className="text-5xl text-[#00cc99]" />
-          <h3 className="text-xl font-semibold my-3">Accounting and Finance</h3>
-          <p className="text-xs font-light mt-8">350 Job Vacancy</p>
-        </Card>
-      </SwiperSlide>
-      <SwiperSlide>
-        {" "}
-        <Card>
-          <AiOutlineBank className="text-5xl text-[#00cc99]" />
-          <h3 className="text-xl font-semibold my-3">
-            Bank <br /> Institution
-          </h3>
-          <p className="text-xs font-light mt-8">350 Job Vacancy</p>
-        </Card>
-      </SwiperSlide>
-      <SwiperSlide>
-        {" "}
-        <Card>
-          <MdManageHistory className="text-5xl text-[#00cc99]" />
-          <h3 className="text-xl font-semibold my-3">
-            Product <br /> Management
-          </h3>
-          <p className="text-xs font-light mt-8">350 Job Vacancy</p>
-        </Card>
-      </SwiperSlide>
-      <SwiperSlide>
-        {" "}
-        <Card>
-          <RiCustomerServiceLine className="text-5xl text-[#00cc99]" />
-          <h3 className="text-xl font-semibold my-3">
-            Customer <br /> Support
-          </h3>
-          <p className="text-xs font-light mt-8">350 Job Vacancy</p>
-        </Card>
-      </SwiperSlide>
-    </Swiper>
+    <div className="2xl:container md:pl-10"> 
+      <Swiper
+        spaceBetween={35}
+        slidesPerView={slidesPerView}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        <SwiperSlide>
+        <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <BiBrain className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+            <h3 className="text-xl font-semibold my-3">Design and Development</h3>
+            <p className="text-xs font-light mt-8">350 Job Vacancy</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <BiLineChartDown className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+            <h3 className="text-xl font-semibold my-3">Accounting and Finance</h3>
+            <p className="text-xs font-light mt-8">350 Job Vacancy</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <AiOutlineBank className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+            <h3 className="text-xl font-semibold my-3">Bank Institution</h3>
+            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <MdManageHistory className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+            <h3 className="text-xl font-semibold my-3">Product Management</h3>
+            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+            <RiCustomerServiceLine className="text-5xl text-[#00cc99] hover:text-[#fff]" />
+            <h3 className="text-xl font-semibold my-3">Customer Support</h3>
+            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </div>
   );
 };
 

@@ -1,11 +1,11 @@
 import React from "react";
 import Slider from "./swiper";
 
-const Categories = () => {
+const Jobs = () => {
   return (
-    <div className="bg-[#00cc990b] py-24 md:pl-20 px-5 sm:px-2 flex flex-col gap-8">
+    <div className="py-24 md:pl-20 px-5 sm:px-2 flex flex-col gap-8">
       <h2 className="text-center text-3xl sm:text-4xl mx-auto sm:mx-0 font-semibold">
-        Popular Job Categories
+        Recently Added Jobs
       </h2>
       <p className="text-center font-light px-8 sm:px-20 md:px-32 lg:px-44 pb-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -22,4 +22,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default Jobs;
