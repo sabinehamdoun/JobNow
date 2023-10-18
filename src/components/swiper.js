@@ -31,45 +31,65 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="2xl:container md:pl-10"> 
+    <div className="2xl:container md:pl-10">
       <Swiper
         spaceBetween={35}
         slidesPerView={slidesPerView}
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-        <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
             <BiBrain className="text-5xl text-[#00cc99] hover:text-[#fff]" />
-            <h3 className="text-xl font-semibold my-3">Design and Development</h3>
-            <p className="text-xs font-light mt-8">350 Job Vacancy</p>
+            <h3 className="text-xl font-semibold my-3 pr-32 sm:pr-0">
+              Design and Development
+            </h3>
+            <p className="text-xs mt-auto">
+              350 Job Vacancy
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
             <BiLineChartDown className="text-5xl text-[#00cc99] hover:text-[#fff]" />
-            <h3 className="text-xl font-semibold my-3">Accounting and Finance</h3>
-            <p className="text-xs font-light mt-8">350 Job Vacancy</p>
+            <h3 className="text-xl font-semibold my-3 pr-32 sm:pr-0">
+              Accounting and Finance
+            </h3>
+            <p className="text-xs mt-auto">
+              350 Job Vacancy
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
             <AiOutlineBank className="text-5xl text-[#00cc99] hover:text-[#fff]" />
-            <h3 className="text-xl font-semibold my-3">Bank Institution</h3>
-            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+            <h3 className="text-xl font-semibold my-3 pr-52 sm:pr-20">
+              Bank Institution
+            </h3>
+            <p className="text-xs mt-auto">
+              350 Job Vacancy
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
             <MdManageHistory className="text-5xl text-[#00cc99] hover:text-[#fff]" />
-            <h3 className="text-xl font-semibold my-3">Product Management</h3>
-            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+            <h3 className="text-xl font-semibold my-3 pr-44 sm:pr-20">
+              Product Management
+            </h3>
+            <p className="text-xs mt-auto">
+              350 Job Vacancy
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="rounded-3xl bg-[#fff] px-5 py-7 h-56 hover:bg-[#00cc99] hover:text-[#fff]">
+          <div className="flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">
             <RiCustomerServiceLine className="text-5xl text-[#00cc99] hover:text-[#fff]" />
-            <h3 className="text-xl font-semibold my-3">Customer Support</h3>
-            <p className="text-xs font-light mt-14">350 Job Vacancy</p>
+            <h3 className="text-xl font-semibold my-3 pr-44 sm:pr-20">
+              Customer Support
+            </h3>
+            <p className="text-xs mt-auto">
+              350 Job Vacancy
+            </p>
           </div>
         </SwiperSlide>
       </Swiper>
