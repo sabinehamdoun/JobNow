@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import 'swiper/css/navigation'; 
 import { PiSuitcaseSimple } from "react-icons/pi";
 import { GrLocation } from "react-icons/gr";
 import { IoIosArrowForward } from "react-icons/io";
@@ -34,12 +31,10 @@ const JobSlider = () => {
 
   return (
     <div className="2xl:container mx-auto pl-3 md:pl-10">
-    <Swiper
-      modules={[Navigation]}
+    <Swiper 
       spaceBetween={40}
       slidesPerView={slidesPerView}
-      onSwiper={(swiper) => console.log(swiper)}
-      navigation
+      onSwiper={(swiper) => console.log(swiper)} 
     >
       <SwiperSlide>
         {" "}
@@ -70,7 +65,7 @@ const JobSlider = () => {
       </SwiperSlide>
       <SwiperSlide>
       <div className="flex flex-col items-start justify-between rounded-3xl bg-[#fff] px-7 py-7">
-          <img src="/assets/ang.jpg" className="h-16 w-16 rounded-[34px] object-fill" />
+          <img src="/assets/AngularJs.svg" className="h-16 w-16 rounded-[20px] object-fill p-1" />
           <h3 className="text-xl font-semibold mt-5 whitespace-nowrap">Full Stack Developer</h3>
           <h6 className="text-sm font-semibold text-gray-500 my-3 mb-7">Alpander</h6>
           <p className="text-xs font-light mt-auto text-gray-500 ">

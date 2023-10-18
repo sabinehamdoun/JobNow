@@ -15,10 +15,10 @@ export default function Home() {
       <Jobs />
       <Feedback />
       <div className="relative">
-        <div className="relative z-30">
+        <div className="absolute w-full z-30">
           <Register />
         </div>
-        <div className="absolute top-28 sm:top-40 left-0 z-20 w-full">
+        <div className="relative top-28 sm:top-40 left-0 z-20 w-full">
           <Footer />
         </div>
       </div>
