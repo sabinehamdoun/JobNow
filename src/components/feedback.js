@@ -3,11 +3,11 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 
 const Feedback = () => {
   return (
-    <div className="2xl:container mx-auto py-10 px-10 sm:py-28 sm:px-8 md:px-20 text-center sm:text-start">
+    <div className="2xl:container mx-auto px-10 pt-8 pb-12 sm:pt-14 sm:pb-28 sm:px-8 md:px-20 text-center sm:text-start">
       <h2 className="text-3xl sm:text-4xl font-semibold ">
         People's Feedback about JobNow!
       </h2>
-      <div className="grid grid-cols-2 gap-28 py-5">
+      <div className="grid grid-cols-2 gap-28 pt-5 sm:py-5">
         <div className="col-span-2 sm:col-span-1 flex flex-col items-center sm:items-start py-3">
           <p className="font-light text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -31,7 +31,7 @@ const Feedback = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-2 sm:col-span-1 rounded-3xl bg-[#00cc99] lg:ml-16"></div>
+        <div className="hidden sm:block col-span-2 sm:col-span-1 rounded-3xl bg-[#00cc99] lg:ml-16"></div>
       </div>
     </div>
   );

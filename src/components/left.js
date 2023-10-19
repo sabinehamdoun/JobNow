@@ -14,11 +14,11 @@ const LeftHeader = () => {
 
   return (
     <div>
-      <div className="mx-auto font-semibold relative">
-        <div className="flex justify-between max-w-screen-xl px-7 sm:px-0 py-7 sm:py-0">
-          <h1 className="text-4xl mx-auto sm:mx-0 font-bold">
+      <div className="2xl:container mx-auto font-semibold">
+        <div className="flex justify-between px-7 sm:px-0 py-7 sm:py-0">
+          <Link href="/" className="text-4xl mx-auto sm:mx-0 font-bold">
             Job<span className="text-[#00cc99]">Now</span>
-          </h1>
+          </Link>
           <div className="flex items-center">
             {!isMobileMenuOpen ? (
               <button
@@ -27,12 +27,14 @@ const LeftHeader = () => {
               >
                 <RiMenu3Fill className="bg-[#00cc99] text-white p-0.5 rounded-[4px] w-[36px] h-[29px]" />
               </button>
-            ) :  <button
-            className="block sm:hidden text-3xl"
-            onClick={toggleMobileMenu}
-          >
-            <MdOutlineCancel className="text-[#00cc99]" />
-          </button>}
+            ) : (
+              <button
+                className="block sm:hidden text-3xl"
+                onClick={toggleMobileMenu}
+              >
+                <MdOutlineCancel className="text-[#00cc99]" />
+              </button>
+            )}
             <ul
               className={`hidden sm:flex list-none gap-4 md:gap-6 lg:gap-11 xl:12 mr-5 sm:mr-14 whitespace-nowrap`}
             >
@@ -99,15 +101,19 @@ const LeftHeader = () => {
             <div className="flex-1 relative bg-[#f9f9f9] rounded-lg">
               <div className="flex items-center">
                 <GrLocation className="w-6 h-6 ml-3" />
-                <input
-                  type="text"
+                <select
                   id="location"
                   name="location"
-                  placeholder="Location"
                   className="bg-[#f9f9f9] w-full text-xs md:text-sm placeholder-black px-3 py-3 font-semibold rounded-lg focus:outline-none"
-                />
+                >
+                  <option value="">Location</option>
+                  <option value="location1">Location 1</option>
+                  <option value="location2">Location 2</option>
+                  <option value="location3">Location 3</option>
+                </select>
               </div>
-            </div>{" "}
+            </div>
+
             <button className="bg-[#00cc99] rounded-xl text-xs sm:text-sm text-white px-7 py-3 sm:py-0 mt-6 sm:mt-0">
               Search
             </button>

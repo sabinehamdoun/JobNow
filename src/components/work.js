@@ -23,7 +23,7 @@ const Work = () => {
             </button>
           </div>
           <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-9">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-9">
               <Card>
                 <BiImport className="text-5xl transform -rotate-90 text-[#00cc99]" />
                 <h3 className="text-xl font-semibold my-3">Register</h3>
@@ -59,8 +59,8 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-5 gap-8 md:gap-10 lg:gap-14 py-24 sm:py-32">
-          <div className="col-span-5 sm:col-span-2 rounded-3xl sm:px-32 py-32 bg-[#c4c4c4]"></div>
+        <div className="grid grid-cols-5 gap-8 md:gap-10 lg:gap-14 sm:py-32">
+          <div className="col-span-5 sm:col-span-2 rounded-3xl bg-[#c4c4c4]"></div>
           <div className="col-span-5 sm:col-span-3 flex flex-col items-start gap-6 py-7 sm:py-10">
             <h2 className="text-2xl sm:text-4xl mx-auto sm:mx-0 font-semibold">
               We will help you to become an employee in your dream company

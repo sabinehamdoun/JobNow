@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import 'swiper/css/navigation';
 
 import { BiLineChartDown, BiBrain } from "react-icons/bi";
 import { AiOutlineBank } from "react-icons/ai";
@@ -36,11 +34,9 @@ const Slider = () => {
   return (
     <div className="2xl:container mx-auto md:pl-10">
       <Swiper
-        modules={[Navigation]}
         spaceBetween={35}
         slidesPerView={slidesPerView}
         onSwiper={(swiper) => console.log(swiper)}
-        navigation
       >
         <SwiperSlide>
           <div className="group flex flex-col justify-between rounded-3xl bg-[#fff] px-5 py-7 h-60 lg:h-56 hover:bg-[#00cc99] hover:text-[#fff]">

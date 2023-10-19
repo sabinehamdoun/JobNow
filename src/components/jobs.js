@@ -3,7 +3,7 @@ import JobSlider from "./job-slider";
 
 const Jobs = () => {
   return (
-    <div className="py-24 px-5 sm:px-2 flex flex-col gap-8">
+    <div className="py-16 sm:py-24 px-5 sm:px-2 flex flex-col gap-8">
       <h2 className="text-center text-3xl sm:text-4xl mx-auto sm:mx-0 font-semibold">
         Recently Added Jobs
       </h2>
