@@ -14,12 +14,19 @@
 }
 
 .backScreen {
-  background: linear-gradient(90deg, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 80%, rgba(0, 204, 153, 0.922) 100%);
+  background: linear-gradient(90deg, rgba(242,242,242) 60%,  rgba(0,204,153) 40%);
+  /* background: linear-gradient(90deg, rgb(242, 242, 242) 60%, rgb(0, 204, 153) 40%); */
 
 }
 
 .rightScreen {
-  background: linear-gradient(90deg, rgba(0,204,153,1) 0%, rgba(0,204,153,1) 80%, rgba(0, 204, 153, 0.159) 100%);
+  background: linear-gradient(90deg, rgba(0,204,153,1) 0%, rgba(0,204,153,1) 80%, rgba(0, 204, 153, 0.22) 100%);
+}
+
+@media screen and (max-width: 1900px) {
+  .backScreen {
+    background: linear-gradient(90deg, rgba(242,242,242) 80%,  rgba(0,204,153) 30%);
+  } 
 }
 
 @media screen and (max-width: 600px) {
