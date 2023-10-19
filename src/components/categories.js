@@ -15,7 +15,7 @@ const Categories = () => {
       <div className="md:pl-20">
         <Slider />
       </div>
-      <button className="mx-auto text-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mt-5">
+      <button className="mx-auto text-[#00cc99] hover:text-white hover:bg-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mt-5">
         View More
       </button>
     </div>

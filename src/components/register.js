@@ -12,7 +12,7 @@ const Register = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button className="mx-auto border-[#fff] border-solid border-2 px-5 sm:px-8 py-2 sm:py-3 rounded-lg whitespace-nowrap mt-3">
+          <button className="mx-auto hover:bg-[#929e9b54] border-[#fff] border-solid border-2 px-5 sm:px-8 py-2 sm:py-3 rounded-lg whitespace-nowrap mt-3">
             Register Now
           </button>
         </div>

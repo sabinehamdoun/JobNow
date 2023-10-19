@@ -6,7 +6,6 @@ import { TiExportOutline } from "react-icons/ti";
 const Work = () => {
   return (
     <div className="2xl:container mx-auto py-10 px-8 sm:py-28 sm:px-8 md:px-20">
-      {/* <div className=""> */}
         <div>
           <h2 className="text-3xl sm:text-4xl mx-auto sm:mx-0 font-semibold ">
             How it works
@@ -18,7 +17,7 @@ const Work = () => {
               enim ad minim veniam, quis nostrud ad minim veniam labore et
               dolore.
             </p>
-            <button className="text-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mt-5 sm:mt-0">
+            <button className="text-[#00cc99] hover:text-white border-[#00cc99] hover:bg-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mt-5 sm:mt-0">
               Learn More
             </button>
           </div>
@@ -71,12 +70,11 @@ const Work = () => {
               enim ad minim veniam, quis nostrud ad minim veniam labore et
               dolore.
             </p>
-            <button className="text-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap">
+            <button className="text-[#00cc99] hover:text-white hover:bg-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap">
               Learn More
             </button>
           </div>
         </div>
-      {/* </div> */}
     </div>
   );
 };

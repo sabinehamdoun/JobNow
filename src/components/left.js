@@ -35,19 +35,19 @@ const LeftHeader = () => {
                 <MdOutlineCancel className="text-[#00cc99]" />
               </button>
             )}
-            <ul
-              className={`hidden sm:flex list-none gap-4 md:gap-6 lg:gap-11 xl:12 mr-5 sm:mr-14 whitespace-nowrap`}
+             <ul
+              className={`hidden sm:flex list-none gap-4 sm:gap-1 md:gap-2 lg:gap-4 xl:12 mr-5 sm:mr-14 whitespace-nowrap `}
             >
-              <li>
+              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
                 <Link href="/">Home</Link>
               </li>
-              <li>
+              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
                 <Link href="/">Job</Link>
               </li>
-              <li>
+              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
                 <Link href="/">About Us</Link>
               </li>
-              <li>
+              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
                 <Link href="/">Contact</Link>
               </li>
             </ul>
@@ -114,7 +114,7 @@ const LeftHeader = () => {
               </div>
             </div>
 
-            <button className="bg-[#00cc99] rounded-xl text-xs sm:text-sm text-white px-7 py-3 sm:py-0 mt-6 sm:mt-0">
+            <button className="bg-[#00cc99] hover:bg-white hover:text-[#00cc99] hover:border-[#00cc99] hover:border-solid hover:border-2 rounded-xl text-xs sm:text-sm text-white px-7 py-3 sm:py-0 mt-6 sm:mt-0">
               Search
             </button>
           </div>
