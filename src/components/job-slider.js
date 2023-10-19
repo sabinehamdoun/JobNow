@@ -30,7 +30,7 @@ const JobSlider = () => {
   }, []);
 
   return (
-    <div className="2xl:container mx-auto pl-3 md:pl-10">
+    <div className="2xl:container mx-auto pl-3 md:pl-10 cursor-pointer">
     <Swiper 
       spaceBetween={40}
       slidesPerView={slidesPerView}

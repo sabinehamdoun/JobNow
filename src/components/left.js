@@ -75,7 +75,7 @@ const LeftHeader = () => {
           </div>
         )}
 
-        <div className="py-14 sm:py-28 px-7 sm:px-0 text-center sm:text-left bg-[#fbfbfb] sm:bg-[#f2f2f2] relative">
+        <div className="py-14 sm:py-28 px-7 sm:px-0 text-center sm:text-left bg-[#fbfbfb] sm:bg-inherit relative">
           <h1 className="text-3xl sm:text-5xl font-bold">
             Search, Find, & Apply
           </h1>

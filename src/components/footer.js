@@ -38,46 +38,46 @@ const Footer = () => {
         <div className="text-white col-span-1 md:col-span-1 ml-auto sm:ml-10">
           <h2 className="font-semibold text-xl">Pages</h2>
           <ul className="flex flex-col gap-2 mt-2 text-xs">
-            <li className="font-light flex items-center gap-1">
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               Home
-            </li>
-            <li className="font-light flex items-center gap-1">
+            </Link>
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               Booking
-            </li>
-            <li className="font-light flex items-center gap-1">
+            </Link>
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               Facilities
-            </li>
-            <li className="font-light flex items-center gap-1">
+            </Link>
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               About Us
-            </li>
-            <li className="font-light flex items-center gap-1">
+            </Link>
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               Location
-            </li>
-            <li className="font-light flex items-center gap-1">
+            </Link>
+            <Link href={'/'} className="font-light flex items-center gap-1">
               <IoIosArrowForward />
               Contact
-            </li>
+            </Link>
           </ul>
         </div>
 
         <div className="text-white col-span-1 md:col-span-1">
           <h2 className="font-semibold text-xl">Contact Us</h2>
           <div className="flex gap-5 text-xl py-3">
-            <Link href="">
+            <Link href="https://www.google.com/">
               <BsGoogle />
             </Link>
-            <Link href="">
+            <Link href="https://www.facebook.com/">
               <BsFacebook />
             </Link>
-            <Link href="">
+            <Link href="https://twitter.com/">
               <BsTwitter />
             </Link>
-            <Link href="">
+            <Link href="https://www.linkedin.com/">
               <BsLinkedin />
             </Link>
           </div>

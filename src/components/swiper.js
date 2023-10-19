@@ -32,7 +32,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="2xl:container mx-auto md:pl-10">
+    <div className="2xl:container mx-auto md:pl-10 cursor-pointer">
       <Swiper
         spaceBetween={35}
         slidesPerView={slidesPerView}

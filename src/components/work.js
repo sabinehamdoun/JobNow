@@ -5,8 +5,8 @@ import { TiExportOutline } from "react-icons/ti";
 
 const Work = () => {
   return (
-    <div className="py-10 px-8 sm:py-28 sm:px-8 md:px-20">
-      <div className="mx-auto 2xl:container">
+    <div className="2xl:container mx-auto py-10 px-8 sm:py-28 sm:px-8 md:px-20">
+      {/* <div className=""> */}
         <div>
           <h2 className="text-3xl sm:text-4xl mx-auto sm:mx-0 font-semibold ">
             How it works
@@ -76,7 +76,7 @@ const Work = () => {
             </button>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
