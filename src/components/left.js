@@ -36,18 +36,18 @@ const LeftHeader = () => {
               </button>
             )}
              <ul
-              className={`hidden sm:flex list-none gap-4 sm:gap-1 md:gap-2 lg:gap-4 xl:12 mr-5 sm:mr-14 whitespace-nowrap `}
+              className={`hidden sm:flex list-none gap-4 sm:gap-3 md:gap-8 lg:gap-11 xl:12 mr-5 sm:mr-14 whitespace-nowrap `}
             >
-              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
+              <li className="hover:text-[#00cc99]">
                 <Link href="/">Home</Link>
               </li>
-              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
+              <li className="hover:text-[#00cc99]">
                 <Link href="/">Job</Link>
               </li>
-              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
+              <li className="hover:text-[#00cc99]">
                 <Link href="/">About Us</Link>
               </li>
-              <li className="hover:bg-[#00cc9967] px-3 py-2 rounded-md">
+              <li className="hover:text-[#00cc99]">
                 <Link href="/">Contact</Link>
               </li>
             </ul>
@@ -114,7 +114,7 @@ const LeftHeader = () => {
               </div>
             </div>
 
-            <button className="bg-[#00cc99] hover:bg-white hover:text-[#00cc99] hover:border-[#00cc99] hover:border-solid hover:border-2 rounded-xl text-xs sm:text-sm text-white px-7 py-3 sm:py-0 mt-6 sm:mt-0">
+            <button className="bg-[#00cc99] hover:bg-[#00cc99ca] rounded-xl text-xs sm:text-sm text-white px-7 py-3 sm:py-0 mt-6 sm:mt-0">
               Search
             </button>
           </div>
