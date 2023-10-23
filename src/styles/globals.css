@@ -24,10 +24,10 @@
 @media screen and (max-width: 1900px) {
   .backScreen {
     background: linear-gradient(90deg, rgba(242,242,242) 80%,  rgba(0,204,153) 30%);
-  } 
+  }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .backScreen {
     background:  rgba(242,242,242,1);
   }

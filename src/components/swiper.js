@@ -34,7 +34,7 @@ const Slider = () => {
   return (
     <div className="2xl:container mx-auto md:pl-10 cursor-pointer">
       <Swiper
-        spaceBetween={35}
+        spaceBetween={30}
         slidesPerView={slidesPerView}
         onSwiper={(swiper) => console.log(swiper)}
       >

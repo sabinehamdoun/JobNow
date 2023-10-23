@@ -4,7 +4,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 const Feedback = () => {
   return (
     <div className="2xl:container mx-auto px-10 pt-8 pb-12 sm:pt-14 sm:pb-28 sm:px-8 md:px-20 text-center sm:text-start">
-      <h2 className="text-3xl sm:text-4xl font-semibold ">
+      <h2 className="text-2xl sm:text-4xl font-semibold ">
         People's Feedback about JobNow!
       </h2>
       <div className="grid grid-cols-2 gap-28 pt-5 sm:py-5">
