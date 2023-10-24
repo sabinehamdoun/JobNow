@@ -4,6 +4,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { MdOutlineCancel } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { GrLocation } from "react-icons/gr";
+import { FaSearch } from "react-icons/fa";
 
 const LeftHeader = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,9 +17,12 @@ const LeftHeader = () => {
     <div>
       <div className="2xl:container mx-auto font-semibold">
         <div className="flex justify-between px-7 sm:px-0 py-7 sm:py-0">
-          <Link href="/" className="text-4xl mx-auto sm:mx-0 font-bold">
-            Job<span className="text-[#00cc99]">Now</span>
-          </Link>
+        <Link href="/" className="font-bold text-4xl text-black flex">
+            Job
+            <span className="text-[#00cc99] flex">
+              N<FaSearch className="mt-[10px] ml-0.5 -mr-1 text-[28px]" />w
+            </span>
+          </Link> 
           <div className="flex items-center">
             {!isMobileMenuOpen ? (
               <button
