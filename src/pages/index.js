@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute w-full z-30">
           <Register />
         </div>
-        <div className="relative top-28 sm:top-40 left-0 z-20 w-full">
+        <div className="relative top-28 sm:top-40 left-0 z-20 w-full bg-[#00cc99] pt-32 sm:pt-40">
           <Footer />
         </div>
       </div>

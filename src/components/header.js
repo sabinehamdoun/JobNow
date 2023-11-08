@@ -18,7 +18,7 @@ const Header = () => {
             <div className="flex justify-center lg:justify-end items-center ml-auto">
               <ul className="hidden list-none sm:flex flex-col md:flex-row gap-0 sm:gap-5 md:gap-11 lg:mr-14 py-16">
                 <li className="text-white items-center flex whitespace-nowrap">
-                  <Link href="/">Sign In</Link>
+                  <Link href="/signin">Sign In</Link>
                 </li>
                 <li>
                   <button className=" flex items-center gap-2 bg-white rounded-lg px-4 py-2 whitespace-nowrap font-semibold">

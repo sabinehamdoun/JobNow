@@ -7,7 +7,7 @@ import { FaSearch } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#00cc99]">
-      <div className="2xl:container mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 px-6 sm:px-16 sm:pl-24 py-10 pt-44 sm:pt-52">
+      <div className="2xl:container mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 px-6 sm:px-16 sm:pl-24 py-10">
         <div className="text-white my-auto col-span-2 md:col-span-2">
           <Link href="/" className="font-bold text-4xl text-black flex">
             Job

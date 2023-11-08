@@ -61,22 +61,21 @@ const Work = () => {
         </button>
       </div>
       <div className="sm:grid grid-cols-5 gap-8 md:gap-10 lg:gap-14 sm:pt-32 sm:pb-5">
-  <div className="sm:col-span-2 rounded-3xl bg-[#c4c4c4] min-w-max min-h-[250px] mt-16 sm:mt-0"></div>
-  <div className="sm:col-span-3 flex flex-col items-start gap-6 py-7 sm:py-10 text-center sm:text-start">
-    <h2 className="text-2xl sm:text-4xl mx-auto sm:mx-0 font-semibold">
-      We will help you to become an employee in your dream company
-    </h2>
-    <p className="font-light">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud ad minim veniam labore et dolore.
-    </p>
-    <button className="font-semibold text-[#00cc99] hover:text-white hover:bg-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mx-auto sm:mx-0 text-sm sm:text-base">
-      Learn More
-    </button>
-  </div>
-</div>
-
+        <div className="sm:col-span-2 rounded-3xl bg-[#c4c4c4] min-w-max min-h-[250px] mt-16 sm:mt-0"></div>
+        <div className="sm:col-span-3 flex flex-col items-start gap-6 py-7 sm:py-10 text-center sm:text-start">
+          <h2 className="text-2xl sm:text-4xl mx-auto sm:mx-0 font-semibold">
+            We will help you to become an employee in your dream company
+          </h2>
+          <p className="font-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud ad minim veniam labore et dolore.
+          </p>
+          <button className="font-semibold text-[#00cc99] hover:text-white hover:bg-[#00cc99] border-[#00cc99] border-solid border-2 px-8 py-3 rounded-lg whitespace-nowrap mx-auto sm:mx-0 text-sm sm:text-base">
+            Learn More
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
