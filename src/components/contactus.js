@@ -5,7 +5,7 @@ import { BiSolidMessageRounded } from "react-icons/bi";
 
 const ContactUs = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 mx-auto text-center px-7 sm:px-10 lg:px-20 py-5">
+    <div className="grid grid-cols-3 gap-4 text-center px-7 sm:px-10 lg:px-20 py-5">
       <h2 className="col-span-3 text-3xl">Get in touch</h2>
       <p className="col-span-3 font-light">Let's talk about jobs!</p>
       <div className="col-span-3 grid grid-cols-3 gap-4">
@@ -57,8 +57,8 @@ const ContactUs = () => {
         
       </div>
       <div className="col-span-3 flex justify-center items-center text-center mt-3">
-        <button className="text-white bg-[#00cc99] hover:bg-[#fff] border-[#00cc99] hover:text-[#00cc99] border-2 px-8 py-3 rounded-lg whitespace-nowrap font-semibold text-sm sm:text-base">
-          View More
+        <button className="text-white bg-[#00cc99] hover:bg-[#fff] border-[#00cc99] hover:text-[#00cc99] border-2 px-7 py-2 rounded-lg whitespace-nowrap font-semibold text-sm sm:text-base">
+          Submit
         </button>
       </div>
     </div>

@@ -21,10 +21,12 @@ const Header = () => {
                   <Link href="/signin">Sign In</Link>
                 </li>
                 <li>
+                <Link href="/signup">
                   <button className=" flex items-center gap-2 bg-white rounded-lg px-4 py-2 whitespace-nowrap font-semibold">
                     <BiImport className="text-xl transform -rotate-90" />
                     Create Account
                   </button>
+                  </Link>
                 </li>
               </ul>
             </div>

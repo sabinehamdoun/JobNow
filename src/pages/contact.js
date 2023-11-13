@@ -11,7 +11,7 @@ const Contact = () => {
         <Navbar />
         </div>
         <Banner title={"Let's make something awesome together."} subtitle={"Drop us a line, or give us a heads up if you're interested in job opportunities."} backImage={'/assets/map2.png'}/>
-        <div className='sm:py-10 md:py-14 sm:px-7 md:px-12 lg:px-20'>
+        <div className='2xl:container mx-auto sm:py-10 md:py-14 sm:px-7 md:px-12 lg:px-20'>
             <ContactUs />
         </div>
         <Footer />

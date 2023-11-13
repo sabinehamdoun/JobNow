@@ -85,7 +85,7 @@ const SignInPage = () => {
               Sign In
             </button>
             </div>
-            <p className="text-sm text-white mt-6 text-center">Don't have an account? <a href="/" className="underline">Create an account</a></p>
+            <p className="text-sm text-white mt-6 text-center">Don't have an account? <a href="/signup" className="underline">Create an account</a></p>
             </div>
           </div>
           </div>
